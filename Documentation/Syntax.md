@@ -39,14 +39,45 @@ Less Than or Equal To:	`a <= b`
 Greater Than or Equal To:	`a >= b`
 
 ## Structure
-Visibility is a Thing!
-- Private -- 
-- Public -- 
+### type
+Similar to `class` in C-Family Languages.
 
-### Functions
-#### Definition
+### template
+Templates cannot be made into objects, but they provide base information and simple 
+
+Templates usually have `template` that
+
+### enum
+Abbreviation for Enumerator.
+
+### operator
+Allows for operator overloading and creation.
+
+### Function Types
+- `process`: Processes read and/or write type and template features without returing a value. They can be accessed from outside the type or template.
+- `method`: 
+
+### Variable Types
+- `bool`: holds a simple `true` or `false` value
+- `int`: 8-byte signed integer.
+- `float`: IEEE 754-1985 double precision
+- `char`: 
+
+- `const`
+- ``
 
 
-#### Calling
+## Example
+```
+template vehicle
+{
+	float[3] property location;
 
+	
+}
 
+type car : vehicle
+{
+	int property speed;
+}
+```
