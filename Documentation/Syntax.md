@@ -26,7 +26,7 @@ Division:	`a / b`
 Modulus (Remainder):	`a % b`
 
 ### Boolean
-Eqality:	`a == b`
+Equality:	`a == b`
 
 Inequality:	`a != b`
 
@@ -79,6 +79,13 @@ Option 2:
 	[private|(private) static|global (public static)]	[constant|not]			6
 	psg													cn
 	gn gc sn sc pn pc
+-->
+
+<!--
+ > constant
+stored > static
+access > public
+restrict > private
 -->
 `const`: defines a variable as constant (unchanging). It must be initialized when decleared and cannot be modified.
 
